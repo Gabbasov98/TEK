@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="stylesheet" href="css/libs.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Главная</title>
+</head>
+
+
+<style>
+    .wrapper a {
+        font-size: 30px;
+        text-transform: capitalize;
+    }
+
+    .wrapper button {
+        margin-bottom: 25px;
+        width: 300px;
+        height: 45px;
+    }
+</style>
+
+<body class="m-page">
+
+    <div class="wrapper" style="padding: 50px;">
+        <a href="index.html" style="display: block; margin-bottom: 20px;">
+            Главная
+        </a>
+        <a href="catalog.html" style="display: block; margin-bottom: 20px;">
+            Все курсы
+        </a>
+        <a href="course.html" style="display: block; margin-bottom: 20px;">
+            Страница курса
+        </a>
+        <a href="course2.html" style="display: block; margin-bottom: 20px;">
+            Страница курса с трудоустройством
+        </a>
+        <a href="auth.html" style="display: block; margin-bottom: 20px;">
+            Вход-регистрация
+        </a>
+        <a href="events.html" style="display: block; margin-bottom: 20px;">
+            Все мероприятия
+        </a>
+        <a href="event-item.html" style="display: block; margin-bottom: 20px;">
+            Страница мероприятия
+        </a>
+        <a href="teachers.html" style="display: block; margin-bottom: 20px;">
+            Педагогический состав
+        </a>
+        <a href="news-item.html" style="display: block; margin-bottom: 20px;">
+            Все новости
+        </a>
+        <a href="about.html" style="display: block; margin-bottom: 20px;">
+            О колледже
+        </a>
+        <a href="contacts.html" style="display: block; margin-bottom: 20px;">
+            Контакты
+        </a>
+        <a href="career.html" style="display: block; margin-bottom: 20px;">
+            Карьера
+        </a>
+        <a href="vacancies.html" style="display: block; margin-bottom: 20px;">
+            Вакансии
+        </a>
+        <a href="quiz.html" style="display: block; margin-bottom: 20px;">
+            Вопросы
+        </a>
+        <a href="quiz2.html" style="display: block; margin-bottom: 20px;">
+            Вопросы 2
+        </a>
+
+
+
+
+        <button data-modal="feedbackModal" style="border: 2px solid #000;margin-bottom: 20px;">
+            Помочь с выбором?
+        </button>
+
+    </div>
+
+
+
+
+
+
+
+    <div class="modal" id="feedbackModal">
+        <div class="modal__bg _close-modal"></div>
+        <div class="modal__dialog">
+            <div class="feedback__inner shadow-link">
+                <img src="img/eagle2.png" alt="" class="tooltip__eagle">
+                <div class="tooltip">
+                    <div class="tooltip__inner">
+                        <div class="tooltip__title text24 semi-bold-text">
+                            Помочь с выбором?
+                        </div>
+                        <div class="text">
+                            <p>
+                                Оставьте заявку и наши специалисты свяжутся с вами, ответят на все вопросы
+                                и подберут подходящий вариант обучения.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <form class="feedback-form">
+                    <fieldset class="fg _full">
+                        <input type="text" placeholder="Ваше имя">
+                    </fieldset>
+                    <fieldset class="fg">
+                        <input type="tel" placeholder="Ваш телефон">
+                    </fieldset>
+                    <fieldset class="fg">
+                        <input type="email" placeholder="Ваш e-mail">
+                    </fieldset>
+                    <div class="feedback-form__hint">
+                        <div class="text10 gray-text2">
+                            Нажимая на кнопку, я соглашаюсь
+                            на обработку персональных данных
+                            и с правилами пользования Платформой
+                        </div>
+                    </div>
+                    <button class="feedback-form__btn m-btn m-btn-orange">
+                        <span>Отправить</span>
+                    </button>
+                </form>
+            </div>
+
+            <button class="modal__close _close-modal">
+                <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1.00098 11L11.001 1" stroke="#00093C" stroke-width="2" stroke-linecap="round" />
+                    <path d="M1.00098 1L11.001 11" stroke="#00093C" stroke-width="2" stroke-linecap="round" />
+                </svg>
+            </button>
+        </div>
+    </div>
+
+    <!--  -->
+    <script src="js/libs.min.js"></script>
+    <script src="js/main.min.js"></script>
+
+</body>
+
+</html>

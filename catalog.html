@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="stylesheet" href="css/libs.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Главная</title>
+</head>
+
+<body class="m-page">
+    <div class="wrapper">
+        <header class="header _full-screen">
+            <div class="container">
+                <div class="header__inner">
+                    <a href="" class="header__logo">
+                        <img src="img/logo.webp" alt="">
+                    </a>
+
+                    <div class="menu">
+                        <nav class="nav">
+                            <a href="" class="nav__link"><span>Главная</span></a>
+                            <a href="" class="nav__link"><span>Абитуриентам</span></a>
+                            <a href="" class="nav__link"><span>Студентам</span></a>
+                            <a href="" class="nav__link"><span>Преподавателям</span></a>
+                            <a href="" class="nav__link"><span>Жизнь колледжа</span></a>
+                            <a href="" class="nav__link"><span>Курсы</span></a>
+                            <a href="" class="nav__link"><span>Новости и события</span></a>
+                            <a href="" class="nav__link"><span>Контакты</span></a>
+                        </nav>
+
+                        <div class="menu__info">
+                            <div class="menu-contacts">
+                                <div class="menu-contacts__address">
+                                    <img src="img/pin.svg" alt="">
+                                    <span>Подольск, ул. Рабочая, д. 13 а</span>
+                                </div>
+                                <a href="tel:+74967639660" class="menu-contacts__phone">
+                                    <span>+7 (4967) 63-96-60</span>
+                                </a>
+                            </div>
+                            <a href="" class="menu__link">
+                                <span>Сведения об образовательной организации</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <button class="burger">
+                        <img src="img/burger.svg" alt="" class="_view1">
+                        <img src="img/burger2.svg" alt="" class="_view2">
+                    </button>
+                </div>
+            </div>
+
+        </header>
+        <main class="content">
+
+            <div class="filter-btn _toggle-filter">
+                <img src="img/filter-icon.svg" alt="">
+                <span class="text14">Фильтры</span>
+            </div>
+
+            <div class="page-top">
+                <div class="container">
+                    <div class="breadcrumbs">
+                        <a href="" class="breadcrumbs__item"><span>Главная</span></a>
+                        <div class="breadcrumbs__item"><span>Все курсы</span></div>
+                    </div>
+                    <h1 class="text36 text24-tablet bold-text">
+                        Все программы обучения
+                    </h1>
+                </div>
+            </div>
+
+            <div class="catalog">
+                <div class="container">
+                    <div class="catalog__inner">
+                        <div class="catalog__sidebar">
+                            <div class="filter">
+                                <div class="filter__top">
+                                    <div class="filter-btn">
+                                        <img src="img/filter-icon.svg" alt="">
+                                        <span class="text14">Фильтры</span>
+                                        <button class="filter-btn__close _toggle-filter">
+                                            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M1 1L10.9993 10.9993" stroke="#00093C" stroke-width="2" stroke-linecap="round" />
+                                                <path d="M11 1L1.00072 10.9993" stroke="#00093C" stroke-width="2" stroke-linecap="round" />
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="filter__scroll">
+                                    <div class="filter__items">
+                                        <div class="filter-group">
+                                            <div class="filter-group__title">
+                                                Уровень
+                                            </div>
+                                            <div class="filter-group__bottom">
+                                                <div class="filter-group__checks">
+                                                    <div class="m-radio">
+                                                        <input checked type="radio" name="level">
+                                                        <label><span>На базе 9-классов</span></label>
+                                                    </div>
+                                                    <div class="m-radio">
+                                                        <input type="radio" name="level">
+                                                        <label><span>На базе 11-и классов</span></label>
+                                                    </div>
+                                                    <div class="m-radio">
+                                                        <input type="radio" name="level">
+                                                        <label><span>Профессионал</span></label>
+                                                    </div>
+                                                    <div class="m-radio">
+                                                        <input type="radio" name="level">
+                                                        <label><span>Другое</span></label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="filter-group">
+                                            <div class="filter-group__title">
+                                                Тип обучения
+                                            </div>
+                                            <div class="filter-group__bottom">
+                                                <div class="filter-group__checks">
+                                                    <div class="m-radio">
+                                                        <input checked type="radio" name="type">
+                                                        <label><span>Любой</span></label>
+                                                    </div>
+                                                    <div class="m-radio">
+                                                        <input type="radio" name="type">
+                                                        <label><span>Очно</span></label>
+                                                    </div>
+                                                    <div class="m-radio">
+                                                        <input type="radio" name="type">
+                                                        <label><span>Заочно</span></label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="filter-group">
+                                            <div class="filter-group__title">
+                                                Длительность
+                                            </div>
+                                            <div class="filter-group__bottom">
+                                                <div class="filter-slider" data-start="1" data-start2="24" data-min="1" data-max="24">
+                                                    <div class="filter-slider__outputs">
+                                                        от <span class="range-slider__output1">1</span> до <span class="range-slider__output2">24</span> месяцев
+                                                    </div>
+                                                    <div class="filter-slider__item">
+                                                        <div class="range-slider"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="filter__nav">
+                                        <button class="filter__btn m-btn m-btn-orange">
+                                            <span>Показать</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="" class="catalog__banner">
+                                <img src="img/banner.svg" alt="">
+                            </a>
+                        </div>
+                        <div class="catalog__content">
+                            <div class="catalog__items">
+                                <a href="" class="catalog-card  shadow-link">
+                                    <div class="catalog-card__top">
+                                        <div class="catalog-card__type">Очно</div>
+                                        <div class="catalog-card__id">38.01.02 </div>
+                                    </div>
+                                    <div class="catalog-card__info">
+                                        <div class="catalog-card__icon">
+                                            <img src="img/course.svg" alt="">
+                                        </div>
+                                        <div class="catalog-card__title">
+                                            Мастер по обработке цифровой информации
+                                        </div>
+                                    </div>
+                                    <div class="catalog-card__desc">
+                                        <div class="text12 gray-text2">Ввод, хранение, обработка, передача и публикация цифровой информации (звука, изображения, видео) в локальных и глобальных сетях.</div>
+                                    </div>
+                                    <div class="catalog-card__bottom">
+                                        <div class="catalog-card__duration text12">
+                                            10 месяцев
+                                        </div>
+
+                                    </div>
+                                </a>
+
+                                <a href="" class="catalog-card _brown shadow-link">
+                                    <div class="catalog-card__top">
+                                        <div class="catalog-card__type">Заочно</div>
+                                        <div class="catalog-card__id">38.01.02 </div>
+                                    </div>
+                                    <div class="catalog-card__info">
+                                        <div class="catalog-card__icon">
+                                            <img src="img/course.svg" alt="">
+                                        </div>
+                                        <div class="catalog-card__title">
+                                            Информационные системы и программирование
+                                        </div>
+                                    </div>
+                                    <div class="catalog-card__desc">
+                                        <div class="text12 gray-text2">Разработчик мобильных приложений создаёт приложения, которыми люди ежедневно пользуются на смартфонах, умных часах и планшетах. </div>
+                                    </div>
+                                    <div class="catalog-card__bottom">
+                                        <div class="catalog-card__duration text12">
+                                            34-36 месяцев
+                                        </div>
+
+                                        <div class="catalog-card__sale">
+                                            <span>-10%</span>
+                                        </div>
+                                    </div>
+                                </a>
+
+                                <a href="" class="catalog-card _yellow shadow-link">
+                                    <div class="catalog-card__top">
+                                        <div class="catalog-card__type">Очно </div>
+                                        <div class="catalog-card__id">38.01.02 </div>
+                                    </div>
+                                    <div class="catalog-card__info">
+                                        <div class="catalog-card__icon">
+                                            <img src="img/course.svg" alt="">
+                                        </div>
+                                        <div class="catalog-card__title">
+                                            Продавец, контролер-кассир
+                                        </div>
+                                    </div>
+                                    <div class="catalog-card__desc">
+                                        <div class="text12 gray-text2">Разработчик мобильных приложений создаёт приложения, которыми люди ежедневно пользуются на смартфонах, умных часах и планшетах. </div>
+                                    </div>
+                                    <div class="catalog-card__bottom">
+                                        <div class="catalog-card__duration text12">
+                                            24 месяца
+                                        </div>
+
+                                    </div>
+                                </a>
+
+                                <a href="" class="catalog-card _purple shadow-link">
+                                    <div class="catalog-card__top">
+                                        <div class="catalog-card__type">Очно </div>
+                                        <div class="catalog-card__id">38.01.03 </div>
+                                    </div>
+                                    <div class="catalog-card__info">
+                                        <div class="catalog-card__icon">
+                                            <img src="img/course.svg" alt="">
+                                        </div>
+                                        <div class="catalog-card__title">
+                                            Контроллер банка
+                                        </div>
+                                    </div>
+                                    <div class="catalog-card__desc">
+                                        <div class="text12 gray-text2">Разработчик мобильных приложений создаёт приложения, которыми люди ежедневно пользуются на смартфонах, умных часах и планшетах. </div>
+                                    </div>
+                                    <div class="catalog-card__bottom">
+                                        <div class="catalog-card__duration text12">
+                                            10 месяца
+                                        </div>
+
+                                    </div>
+                                </a>
+
+                                <a href="" class="catalog-card _green shadow-link">
+                                    <div class="catalog-card__top">
+                                        <div class="catalog-card__type">Очно </div>
+                                        <div class="catalog-card__id">38.02.04 </div>
+                                    </div>
+                                    <div class="catalog-card__info">
+                                        <div class="catalog-card__icon">
+                                            <img src="img/course.svg" alt="">
+                                        </div>
+                                        <div class="catalog-card__title">
+                                            Коммерция (по отраслям)
+                                        </div>
+                                    </div>
+                                    <div class="catalog-card__desc">
+                                        <div class="text12 gray-text2">Разработчик мобильных приложений создаёт приложения, которыми люди ежедневно пользуются на смартфонах, умных часах и планшетах. </div>
+                                    </div>
+                                    <div class="catalog-card__bottom">
+                                        <div class="catalog-card__duration text12">
+                                            24 месяца
+                                        </div>
+
+                                        <div class="catalog-card__sale">
+                                            <span>-10%</span>
+                                        </div>
+                                    </div>
+                                </a>
+
+                                <a href="" class="catalog-card  shadow-link">
+                                    <div class="catalog-card__top">
+                                        <div class="catalog-card__type">Очно </div>
+                                        <div class="catalog-card__id">38.01.02 </div>
+                                    </div>
+                                    <div class="catalog-card__info">
+                                        <div class="catalog-card__icon">
+                                            <img src="img/course.svg" alt="">
+                                        </div>
+                                        <div class="catalog-card__title">
+                                            Право и организация социального обеспечения
+                                        </div>
+                                    </div>
+                                    <div class="catalog-card__desc">
+                                        <div class="text12 gray-text2">Разработчик мобильных приложений создаёт приложения, которыми люди ежедневно пользуются на смартфонах, умных часах и планшетах. </div>
+                                    </div>
+                                    <div class="catalog-card__bottom">
+                                        <div class="catalog-card__duration text12">
+                                            24 месяца
+                                        </div>
+
+                                        <div class="catalog-card__sale">
+                                            <span>-10%</span>
+                                        </div>
+                                    </div>
+                                </a>
+
+                                <a href="" class="catalog-card _blue shadow-link">
+                                    <div class="catalog-card__top">
+                                        <div class="catalog-card__type">Очно </div>
+                                        <div class="catalog-card__id">44.02.01 </div>
+                                    </div>
+                                    <div class="catalog-card__info">
+                                        <div class="catalog-card__icon">
+                                            <img src="img/course.svg" alt="">
+                                        </div>
+                                        <div class="catalog-card__title">
+                                            Дошкольное образование
+                                        </div>
+                                    </div>
+                                    <div class="catalog-card__desc">
+                                        <div class="text12 gray-text2">Разработчик мобильных приложений создаёт приложения, которыми люди ежедневно пользуются на смартфонах, умных часах и планшетах. </div>
+                                    </div>
+                                    <div class="catalog-card__bottom">
+                                        <div class="catalog-card__duration text12">
+                                            24 месяца
+                                        </div>
+
+                                    </div>
+                                </a>
+
+                                <a href="" class="catalog-card _yellow2 shadow-link">
+                                    <div class="catalog-card__top">
+                                        <div class="catalog-card__type">Очно </div>
+                                        <div class="catalog-card__id">44.02.02 </div>
+                                    </div>
+                                    <div class="catalog-card__info">
+                                        <div class="catalog-card__icon">
+                                            <img src="img/course.svg" alt="">
+                                        </div>
+                                        <div class="catalog-card__title">
+                                            Преподавание в начальных классах
+                                        </div>
+                                    </div>
+                                    <div class="catalog-card__desc">
+                                        <div class="text12 gray-text2">Разработчик мобильных приложений создаёт приложения, которыми люди ежедневно пользуются на смартфонах, умных часах и планшетах. </div>
+                                    </div>
+                                    <div class="catalog-card__bottom">
+                                        <div class="catalog-card__duration text12">
+                                            24 месяца
+                                        </div>
+
+                                    </div>
+                                </a>
+
+                                <a href="" class="catalog-card _pink shadow-link">
+                                    <div class="catalog-card__top">
+                                        <div class="catalog-card__type">Очно </div>
+                                        <div class="catalog-card__id">38.01.02 </div>
+                                    </div>
+                                    <div class="catalog-card__info">
+                                        <div class="catalog-card__icon">
+                                            <img src="img/course.svg" alt="">
+                                        </div>
+                                        <div class="catalog-card__title">
+                                            «Разработка мобильных приложений»
+                                        </div>
+                                    </div>
+                                    <div class="catalog-card__desc">
+                                        <div class="text12 gray-text2">Разработчик мобильных приложений создаёт приложения, которыми люди ежедневно пользуются на смартфонах, умных часах и планшетах. </div>
+                                    </div>
+                                    <div class="catalog-card__bottom">
+                                        <div class="catalog-card__duration text12">
+                                            24 месяца
+                                        </div>
+
+                                    </div>
+                                </a>
+
+                                <a href="" class="catalog-card _purple shadow-link">
+                                    <div class="catalog-card__top">
+                                        <div class="catalog-card__type">Очно </div>
+                                        <div class="catalog-card__id">38.01.02 </div>
+                                    </div>
+                                    <div class="catalog-card__info">
+                                        <div class="catalog-card__icon">
+                                            <img src="img/course.svg" alt="">
+                                        </div>
+                                        <div class="catalog-card__title">
+                                            «Разработка мобильных приложений»
+                                        </div>
+                                    </div>
+                                    <div class="catalog-card__desc">
+                                        <div class="text12 gray-text2">Разработчик мобильных приложений создаёт приложения, которыми люди ежедневно пользуются на смартфонах, умных часах и планшетах. </div>
+                                    </div>
+                                    <div class="catalog-card__bottom">
+                                        <div class="catalog-card__duration text12">
+                                            24 месяца
+                                        </div>
+
+                                    </div>
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="feedback">
+                <div class="container">
+                    <div class="feedback__inner shadow-link">
+                        <img src="img/eagle2.png" alt="" class="tooltip__eagle">
+                        <div class="tooltip">
+                            <div class="tooltip__inner">
+                                <div class="tooltip__title text24 semi-bold-text">
+                                    Помочь с выбором?
+                                </div>
+                                <div class="text">
+                                    <p>
+                                        Оставьте заявку и наши специалисты свяжутся с вами, ответят на все вопросы
+                                        и подберут подходящий вариант обучения.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <form class="feedback-form">
+                            <fieldset class="fg _full">
+                                <input type="text" placeholder="Ваше имя">
+                            </fieldset>
+                            <fieldset class="fg">
+                                <input type="tel" placeholder="Ваш телефон">
+                            </fieldset>
+                            <fieldset class="fg">
+                                <input type="email" placeholder="Ваш e-mail">
+                            </fieldset>
+                            <div class="feedback-form__hint">
+                                <div class="text10 gray-text2">
+                                    Нажимая на кнопку, я соглашаюсь
+                                    на обработку персональных данных
+                                    и с правилами пользования Платформой
+                                </div>
+                            </div>
+                            <button class="feedback-form__btn m-btn m-btn-orange">
+                                <span>Отправить</span>
+                            </button>
+                        </form>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__inner">
+                    <div class="footer__info">
+                        <a href="" class="footer__logo">
+                            <img src="img/logo.svg" alt="">
+                        </a>
+                        <div class="footer__phone">
+                            <a class="footer__phone-link" href="tel:84967639660">8 4967 63-96-60 </a>
+                        </div>
+                        <div class="footer__address">
+                            <div class="text14">г. Подольск, ул. Рабочая, д. 13а</div>
+                        </div>
+                        <div class="footer__email">
+                            <a class="footer__email-link" href="mailto:info@tecspo.ru">info@tecspo.ru</a>
+                        </div>
+                        <div class="socials">
+                            <a href="" class="socials__item">
+                                <img src="img/vk.svg" alt="">
+                            </a>
+                            <a href="" class="socials__item">
+                                <img src="img/ig.svg" alt="">
+                            </a>
+                            <a href="" class="socials__item">
+                                <img src="img/fb.svg" alt="">
+                            </a>
+                            <a href="" class="socials__item">
+                                <img src="img/youtube.svg" alt="">
+                            </a>
+                            <a href="" class="socials__item">
+                                <img src="img/tg.svg" alt="">
+                            </a>
+                        </div>
+                        <div class="footer__c">
+                            <div class="text12">© АНО ПО “ТЭК”</div>
+                        </div>
+                    </div>
+
+                    <div class="footer-nav">
+                        <div class="footer-nav__title">
+                            Абитуриенту
+                        </div>
+                        <div class="footer-nav__links">
+                            <a href="" class="footer-nav__link"><span>Правила приема</span></a>
+                            <a href="" class="footer-nav__link"><span>Приемная комиссия</span></a>
+                            <a href="" class="footer-nav__link"><span>Контрольные цифры</span></a>
+                            <a href="" class="footer-nav__link"><span>Платные образовательные услуги</span></a>
+                            <a href="" class="footer-nav__link"><span>Профориентация</span></a>
+                            <a href="" class="footer-nav__link"><span>Специальности</span></a>
+                        </div>
+                    </div>
+
+                    <div class="footer-nav">
+                        <div class="footer-nav__title">
+                            Студенту
+                        </div>
+                        <div class="footer-nav__links">
+                            <a href="" class="footer-nav__link"><span>Правила внутреннего распорядка</span></a>
+                            <a href="" class="footer-nav__link"><span>Учебная часть</span></a>
+                            <a href="" class="footer-nav__link"><span>Расписание занятий</span></a>
+                            <a href="" class="footer-nav__link"><span>Объявления</span></a>
+                            <a href="" class="footer-nav__link"><span>Прохождение практики</span></a>
+                            <a href="" class="footer-nav__link"><span>Учебные материалы</span></a>
+                            <a href="" class="footer-nav__link"><span>Спортивная жизнь</span></a>
+                            <a href="" class="footer-nav__link"><span>Студенческое самоуправление</span></a>
+                            <a href="" class="footer-nav__link"><span>Государственная итоговая аттестация</span></a>
+                        </div>
+                    </div>
+
+                    <div class="footer-nav">
+                        <div class="footer-nav__title">
+                            Полезное
+                        </div>
+                        <div class="footer-nav__links">
+                            <a href="" class="footer-nav__link"><span>Ссылки</span></a>
+                            <a href="" class="footer-nav__link"><span>Обработка персональных данных</span></a>
+                            <a href="" class="footer-nav__link"><span>Противодействие коррупции</span></a>
+                            <a href="" class="footer-nav__link"><span>Информационная безопасность</span></a>
+                            <a href="" class="footer-nav__link"><span>Безопасность</span></a>
+                        </div>
+                    </div>
+
+                    <div class="footer-nav">
+                        <div class="footer-nav__title">
+                            Информация
+                        </div>
+                        <div class="footer-nav__links">
+                            <a href="" class="footer-nav__link"><span>Сведения об <br> образовательной организации</span></a>
+                            <a href="" class="footer-nav__link"><span>Новости и события</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+    </div>
+
+    <script src="js/libs.min.js"></script>
+    <script src="js/main.min.js"></script>
+
+</body>
+
+</html>
